@@ -27,7 +27,7 @@
 .. code-block:: shell
 
     docker run -it -p 8081:8081 \
-        -e ANALYZER_PG_URL=postgresql://user:hackme@localhost/analyzer \
+        -e ANALYZER_PG_URL=postgresql://username:password@localhost/analyzer \
         Frostshockk/risapi2022
 
 Все доступные опции запуска любой команды можно получить с помощью
